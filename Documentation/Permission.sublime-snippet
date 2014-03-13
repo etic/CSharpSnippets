@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <permission cref="${1:member}">$2}</permission>]]></content>
+	<tabTrigger>permission</tabTrigger>
+	<description>Permission documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

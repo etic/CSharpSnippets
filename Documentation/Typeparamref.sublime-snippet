@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<typeparamref name="${1:name}" />]]></content>
+	<tabTrigger>typeparamref</tabTrigger>
+	<description>Typeparamref documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

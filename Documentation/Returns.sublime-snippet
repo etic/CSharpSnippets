@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <returns>${1}</returns>]]></content>
+	<tabTrigger>returns</tabTrigger>
+	<description>Returns documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

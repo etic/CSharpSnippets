@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <typeparam name="${1:name}">${2}</typeparam>]]></content>
+	<tabTrigger>typeparam</tabTrigger>
+	<description>Typeparam documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

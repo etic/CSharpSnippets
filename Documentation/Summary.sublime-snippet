@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+/// <summary>
+/// ${1}
+/// </summary>]]></content>
+	<tabTrigger>summary</tabTrigger>
+	<description>Summary documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

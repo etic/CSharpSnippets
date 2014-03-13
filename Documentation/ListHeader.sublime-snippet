@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+/// <listheader>
+/// ${1}
+/// </listheader>]]></content>
+	<tabTrigger>listheader</tabTrigger>
+	<description>Listheader documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

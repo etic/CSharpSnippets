@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <para>${1}</para>]]></content>
+	<tabTrigger>para</tabTrigger>
+	<description>Para documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <paramref name="${1:name}"/>]]></content>
+	<tabTrigger>paramref</tabTrigger>
+	<description>Paramref documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

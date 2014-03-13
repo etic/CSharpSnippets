@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <seealso cref="${1:member}" />]]></content>
+	<tabTrigger>seealso</tabTrigger>
+	<description>Seealso documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

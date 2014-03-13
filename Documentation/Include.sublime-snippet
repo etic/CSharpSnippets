@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <include file='${1:filepath}' path='${2:tagpath}[@${3:name}="${4}"]' />]]></content>
+	<tabTrigger>include</tabTrigger>
+	<description>Include documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

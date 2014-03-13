@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[/// <exception cref="${1:member}">${2}</exception>]]></content>
+	<tabTrigger>exception</tabTrigger>
+	<description>Exception documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>

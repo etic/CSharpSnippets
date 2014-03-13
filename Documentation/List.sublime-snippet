@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+/// <list type="{1:type}">
+/// ${2}
+/// </list>]]></content>
+	<tabTrigger>list</tabTrigger>
+	<description>List documentation tag</description>
+	<scope>source.cs</scope>
+</snippet>
