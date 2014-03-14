@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/// <summary>
+/// Description of class goes here
+/// </summary>
+${2:public} class ${3:ClassName} {
+  ${1}
+}]]></content>
+	<tabTrigger>class</tabTrigger>
+	<description>Class</description>
+	<scope>source.cs</scope>
+</snippet>

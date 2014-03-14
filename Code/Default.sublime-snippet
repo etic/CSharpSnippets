@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+default:
+  ${1}
+  break;]]></content>
+	<tabTrigger>default</tabTrigger>
+	<description>Default</description>
+	<scope>source.cs</scope>
+</snippet>

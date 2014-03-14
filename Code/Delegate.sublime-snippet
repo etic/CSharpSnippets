@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+public delegate ${2:ReturnType} ${3:DelegateName}(${4:ParameterType} ${4:ParameterName});
+${1}]]></content>
+	<tabTrigger>delegate</tabTrigger>
+	<description>Delegate</description>
+	<scope>source.cs</scope>
+</snippet>
