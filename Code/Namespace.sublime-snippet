@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+namespace ${0:NamespaceName} {
+	${1}
+}]]></content>
+	<tabTrigger>ns</tabTrigger>
+	<description>Namespace</description>
+	<scope>source.cs</scope>
+</snippet>

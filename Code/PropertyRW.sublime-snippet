@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+private ${0:Type} _${1:PropertyName};
+${2:public} {0:Type} ${1:PropertyName} {
+	get {${3: return _${1:PropertyName}; }}
+	set {${4: _${1:PropertyName} = value; }}
+}${5}]]></content>
+	<tabTrigger>prw</tabTrigger>
+	<description>Property (Read-Write)</description>
+	<scope>source.cs</scope>
+</snippet>

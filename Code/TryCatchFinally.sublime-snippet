@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+try {
+	${0}
+} catch {${1:System.Exception} e) {
+	${2}
+} finally {
+	${3}
+}]]></content>
+	<tabTrigger>try</tabTrigger>
+	<description>Try / Catch / Finally</description>
+	<scope>source.cs</scope>
+</snippet>

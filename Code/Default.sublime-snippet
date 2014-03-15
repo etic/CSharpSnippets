@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 default:
-  ${1}
+  ${0}
   break;]]></content>
 	<tabTrigger>default</tabTrigger>
 	<description>Default</description>

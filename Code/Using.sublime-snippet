@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[using ${0:System};]]></content>
+	<tabTrigger>us</tabTrigger>
+	<description>Using</description>
+	<scope>source.cs</scope>
+</snippet>

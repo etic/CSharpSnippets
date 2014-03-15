@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${0:public} struct ${1:StructName} {
+	${2}
+}]]></content>
+	<tabTrigger>struct</tabTrigger>
+	<description>Struct</description>
+	<scope>source.cs</scope>
+</snippet>

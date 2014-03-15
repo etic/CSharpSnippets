@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+else {
+	${0}
+}]]></content>
+	<tabTrigger>else</tabTrigger>
+	<description>Else</description>
+	<scope>source.cs</scope>
+</snippet>

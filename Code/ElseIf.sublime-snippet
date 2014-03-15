@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+else if (${0:Condition}) {
+	${1}
+}]]></content>
+	<tabTrigger>elseif</tabTrigger>
+	<description>Else If</description>
+	<scope>source.cs</scope>
+</snippet>

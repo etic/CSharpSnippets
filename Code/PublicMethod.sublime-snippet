@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public ${0:ReturnType} ${1:MethodName}(${2:Parameters}) {
+	${3}
+}]]></content>
+	<tabTrigger>pum</tabTrigger>
+	<description>Public Method</description>
+	<scope>source.cs</scope>
+</snippet>

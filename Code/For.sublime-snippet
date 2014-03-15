@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+for (${0:Initializer}; ${1:Condition}; ${2:Update}) {
+	${3}
+}]]></content>
+	<tabTrigger>for</tabTrigger>
+	<description>For</description>
+	<scope>source.cs</scope>
+</snippet>

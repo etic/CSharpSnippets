@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+while (${0:Condition}) {
+	${1}
+}]]></content>
+	<tabTrigger>while</tabTrigger>
+	<description>While</description>
+	<scope>source.cs</scope>
+</snippet>

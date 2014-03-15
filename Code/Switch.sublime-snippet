@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+switch (${0:Expression}) {
+	${1}
+}]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<description>Switch</description>
+	<scope>source.cs</scope>
+</snippet>
