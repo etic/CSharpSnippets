@@ -55,7 +55,7 @@ default:
 ### [delegate] Delegate
 
 ```
-public delegate ${0:ReturnType} ${1:DelegateName}(${2:Parameters});
+public delegate ${1:ReturnType} ${2:DelegateName}(${3:Parameters});
 ```
 
 ### [else] Else
@@ -69,99 +69,99 @@ else {
 ### [elseif] Else If
 
 ```
-else if (${0:Condition}) {
-	${1}
+else if (${1:Condition}) {
+	${0}
 }
 ```
 
 ### [for] For
 
 ```
-for (${0:Initializer}; ${1:Condition}; ${2:Update}) {
-	${3}
+for (${1:Initializer}; ${2:Condition}; ${3:Update}) {
+	${0}
 }
 ```
 
 ### [foreach] ForEach
 
 ```
-foreach (${0} in ${1}) {
-	${2}
+foreach (${1:Type} in ${2:Collection}) {
+	${0}
 }
 ```
 
 ### [if] If
 
 ```
-if (${0:Condition}) {
-	${1}
+if (${1:Condition}) {
+	${0}
 }
 ```
 
 ### [interface] Interface
 
 ```
-interface ${0:InterfaceName} {
-	${1}
+interface ${1:InterfaceName} {
+	${0}
 }
 ```
 
 ### [ns] Namespace
 
 ```
-namespace ${0:NamespaceName} {
-	${1}
+namespace ${1:NamespaceName} {
+	${0}
 }
 ```
 
 ### [pm] Private Method
 
 ```
-private ${0:ReturnType} ${1:MethodName}(${2:Parameters}) {
-	${3}
+private ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
+	${0}
 }
 ```
 
 ### [pr] Property (Read-Only)
 
 ```
-private ${0:Type} _${1:PropertyName};
-${2:public} {0:Type} ${1:PropertyName} {
-	get {${3: return _${1:PropertyName}; }}
-}${4}
+private ${1:Type} _${2:PropertyName};
+${3:public} {1:Type} ${2:PropertyName} {
+	get {${4: return _${2:PropertyName}; }}
+}${0}
 ```
 
 ### [prw] Property (Read-Write)
 
 ```
-private ${0:Type} _${1:PropertyName};
-${2:public} {0:Type} ${1:PropertyName} {
-	get {${3: return _${1:PropertyName}; }}
-	set {${4: _${1:PropertyName} = value; }}
-}${5}
+private ${1:Type} _${2:PropertyName};
+${3:public} {1:Type} ${2:PropertyName} {
+	get {${4: return _${2:PropertyName}; }}
+	set {${5: _${2:PropertyName} = value; }}
+}${0}
 ```
 
 ### [pum] Public Method
 
 ```
-public ${0:ReturnType} ${1:MethodName}(${2:Parameters}) {
-	${3}
+public ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
+	${0}
 }
 ```
 
 ### [struct] Struct
 
 ```
-${0:public} struct ${1:StructName} {
-	${2}
+${1:public} struct ${2:StructName} {
+	${0}
 }
 ```
 
 ### [switch] Switch
 
 ```
-switch (${0:Expression}) {
-	${1}
+switch (${1:Expression}) {
+	${0}
 }
 ```
 
@@ -169,25 +169,25 @@ switch (${0:Expression}) {
 
 ```
 try {
-	${0}
-} catch {${1:System.Exception} e) {
-	${2}
-} finally {
+	${1}
+} catch {${2:System.Exception} e) {
 	${3}
+} finally {
+	${0}
 }
 ```
 
 ### [us] Using
 
 ```
-using ${0:System};
+using ${1:System};
 ```
 
 ### [while] While
 
 ```
-while (${0:Condition}) {
-	${1}
+while (${1:Condition}) {
+	${0}
 }
 ```
 

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-public delegate ${0:ReturnType} ${1:DelegateName}(${2:Parameters});]]></content>
+public delegate ${1:ReturnType} ${2:DelegateName}(${3:Parameters});]]></content>
 	<tabTrigger>delegate</tabTrigger>
 	<description>Delegate</description>
 	<scope>source.cs</scope>

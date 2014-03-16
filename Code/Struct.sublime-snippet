@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-${0:public} struct ${1:StructName} {
-	${2}
+${1:public} struct ${2:StructName} {
+	${0}
 }]]></content>
 	<tabTrigger>struct</tabTrigger>
 	<description>Struct</description>

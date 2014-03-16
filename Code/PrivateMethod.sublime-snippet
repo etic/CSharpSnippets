@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-private ${0:ReturnType} ${1:MethodName}(${2:Parameters}) {
-	${3}
+private ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
+	${0}
 }]]></content>
 	<tabTrigger>pm</tabTrigger>
 	<description>Private Method</description>
