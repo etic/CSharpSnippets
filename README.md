@@ -4,6 +4,10 @@ C# snippets for Sublime Text.
 
 ## Installation
 
+### From Package Control
+
+Recommended method of installation.  Search for **C# Snippets** or just **C#**.
+
 ### Linux
 
 ```
