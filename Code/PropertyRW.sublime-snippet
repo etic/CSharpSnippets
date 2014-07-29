@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 private ${1:Type} _${2:PropertyName};
-${3:public} {1:Type} ${2:PropertyName} {
+${3:public} ${1:Type} ${2:PropertyName} {
 	get {${4: return _${2:PropertyName}; }}
 	set {${5: _${2:PropertyName} = value; }}
 }${0}]]></content>
