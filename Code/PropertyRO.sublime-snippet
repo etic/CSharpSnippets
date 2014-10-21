@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-private ${1:Type} _${2:PropertyName};
-${3:public} ${1:Type} ${2:PropertyName} {
-	get {${4: return _${2:PropertyName}; }}
+${3:public} ${1:Type} ${2:PropertyName} 
+{
+	get;
+	private set;
 }${0}]]></content>
 	<tabTrigger>pr</tabTrigger>
 	<description>Property (Read-Only)</description>
