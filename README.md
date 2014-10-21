@@ -44,6 +44,14 @@ ${1:public} class ${2:ClassName} {
 }
 ```
 
+### [ctor] Constructor
+
+```
+${1:public} ${2:ClassName} (${3:Arguments}) {
+  ${0}
+}
+```
+
 ### [default] Default
 
 ```
