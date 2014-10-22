@@ -154,14 +154,10 @@ ${3:public} ${1:Type} ${2:PropertyName}
 }${0}
 ```
 
-### [prw] Property (Read-Write)
+### [prop] Property (Read-Write)
 
 ```
-${3:public} ${1:Type} ${2:PropertyName} 
-{
-	get; 
-	set; 
-}${0}
+${1:public} ${2:Type} ${3:PropertyName} { get; set; }${0}
 ```
 
 ### [pum] Public Method
