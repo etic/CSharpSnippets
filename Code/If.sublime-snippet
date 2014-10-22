@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-if (${1:Condition}) {
+if (${1:Condition}) 
+{
 	${0}
 }]]></content>
 	<tabTrigger>if</tabTrigger>
