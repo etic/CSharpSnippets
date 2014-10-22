@@ -90,6 +90,20 @@ for (${1:Initializer}; ${2:Condition}; ${3:Update}) {
 }
 ```
 
+### [fact] xUnit Test Method
+
+```
+[Fact]
+${1:public} void ${2:TestName}() 
+{
+	//Given
+
+	//When
+
+	//Then
+}${0}
+```
+
 ### [foreach] ForEach
 
 ```
@@ -133,19 +147,20 @@ private ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
 ### [pr] Property (Read-Only)
 
 ```
-private ${1:Type} _${2:PropertyName};
-${3:public} {1:Type} ${2:PropertyName} {
-	get {${4: return _${2:PropertyName}; }}
+${3:public} ${1:Type} ${2:PropertyName} 
+{
+	get;
+	private set;
 }${0}
 ```
 
 ### [prw] Property (Read-Write)
 
 ```
-private ${1:Type} _${2:PropertyName};
-${3:public} {1:Type} ${2:PropertyName} {
-	get {${4: return _${2:PropertyName}; }}
-	set {${5: _${2:PropertyName} = value; }}
+${3:public} ${1:Type} ${2:PropertyName} 
+{
+	get; 
+	set; 
 }${0}
 ```
 
