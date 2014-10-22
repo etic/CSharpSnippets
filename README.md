@@ -39,7 +39,8 @@ case ${1:Constant}:
 ### [class] Class
 
 ```
-${1:public} class ${2:ClassName} {
+${1:public} class ${2:ClassName} 
+{
   ${0}
 }
 ```
@@ -47,7 +48,8 @@ ${1:public} class ${2:ClassName} {
 ### [ctor] Constructor
 
 ```
-${1:public} ${2:ClassName} (${3:Parameters}) {
+${1:public} ${2:ClassName} (${3:Parameters}) 
+{
   ${0}
 }
 ```
@@ -85,7 +87,8 @@ else if (${1:Condition}) {
 ### [for] For
 
 ```
-for (${1:Initializer}; ${2:Condition}; ${3:Update}) {
+for (${1:Initializer}; ${2:Condition}; ${3:Update}) 
+{
 	${0}
 }
 ```
@@ -107,7 +110,8 @@ ${1:public} void ${2:TestName}()
 ### [foreach] ForEach
 
 ```
-foreach (${1:Type} in ${2:Collection}) {
+foreach (${1:Type} in ${2:Collection}) 
+{
 	${0}
 }
 ```
@@ -115,7 +119,8 @@ foreach (${1:Type} in ${2:Collection}) {
 ### [if] If
 
 ```
-if (${1:Condition}) {
+if (${1:Condition}) 
+{
 	${0}
 }
 ```
@@ -123,7 +128,8 @@ if (${1:Condition}) {
 ### [interface] Interface
 
 ```
-interface ${1:InterfaceName} {
+interface ${1:InterfaceName} 
+{
 	${0}
 }
 ```
@@ -131,7 +137,8 @@ interface ${1:InterfaceName} {
 ### [ns] Namespace
 
 ```
-namespace ${1:NamespaceName} {
+namespace ${1:NamespaceName} 
+{
 	${0}
 }
 ```
@@ -139,7 +146,8 @@ namespace ${1:NamespaceName} {
 ### [pm] Private Method
 
 ```
-private ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
+private ${1:ReturnType} ${2:MethodName}(${3:Parameters}) 
+{
 	${0}
 }
 ```
@@ -163,7 +171,8 @@ ${1:public} ${2:Type} ${3:PropertyName} { get; set; }${0}
 ### [pum] Public Method
 
 ```
-public ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
+public ${1:ReturnType} ${2:MethodName}(${3:Parameters}) 
+{
 	${0}
 }
 ```
@@ -171,7 +180,8 @@ public ${1:ReturnType} ${2:MethodName}(${3:Parameters}) {
 ### [struct] Struct
 
 ```
-${1:public} struct ${2:StructName} {
+${1:public} struct ${2:StructName} 
+{
 	${0}
 }
 ```
@@ -179,7 +189,8 @@ ${1:public} struct ${2:StructName} {
 ### [switch] Switch
 
 ```
-switch (${1:Expression}) {
+switch (${1:Expression}) 
+{
 	${0}
 }
 ```
@@ -187,11 +198,14 @@ switch (${1:Expression}) {
 ### [try] Try / Catch / Finally
 
 ```
-try {
+try 
+{
 	${1}
-} catch {${2:System.Exception} e) {
+} catch {${2:System.Exception} e) 
+{
 	${3}
-} finally {
+} finally 
+{
 	${0}
 }
 ```
@@ -205,7 +219,8 @@ using ${1:System};
 ### [while] While
 
 ```
-while (${1:Condition}) {
+while (${1:Condition})
+{
 	${0}
 }
 ```
