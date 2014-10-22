@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-switch (${1:Expression}) {
+switch (${1:Expression}) 
+{
 	${0}
 }]]></content>
 	<tabTrigger>switch</tabTrigger>
