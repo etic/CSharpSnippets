@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+[Fact]
+${1:public} void ${2:TestName}() 
+{
+	//Given
+
+	//When
+
+	//Then
+}${0}]]></content>
+	<tabTrigger>fact</tabTrigger>
+	<description>xUnit Test Method</description>
+	<scope>source.cs</scope>
+</snippet>
