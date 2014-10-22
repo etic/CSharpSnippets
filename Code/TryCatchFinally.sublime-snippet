@@ -1,10 +1,13 @@
 <snippet>
 	<content><![CDATA[
-try {
+try 
+{
 	${1}
-} catch {${2:System.Exception} e) {
+} catch {${2:System.Exception} e) 
+{
 	${3}
-} finally {
+} finally 
+{
 	${0}
 }]]></content>
 	<tabTrigger>try</tabTrigger>
