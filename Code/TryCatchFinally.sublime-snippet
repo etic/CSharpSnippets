@@ -3,7 +3,7 @@
 try 
 {
 	${1}
-} catch {${2:System.Exception} e) 
+} catch (${2:System.Exception} e) 
 {
 	${3}
 } finally 
