@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+do
+{
+    ${0}
+} while(${1:Condition});]]></content>
+  <tabTrigger>dw, DoWhile</tabTrigger>
+  <description>Do While</description>
+  <scope>source.cs</scope>
+</snippet>
