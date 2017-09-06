@@ -1,3 +1,7 @@
+# How to Insert Not Applied Snippet
+
+paste sublime-snippet file to %appdata%\Sublime Text 3\Packages\User\snippet  folder.
+
 # CSharpSnippets
 
 C# snippets for Sublime Text.
