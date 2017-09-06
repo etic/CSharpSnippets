@@ -3,7 +3,7 @@
 #region variable ${1:DataType} ${2:VariableName}
 private ${1:DataType} ${2:VariableName};
 
-// Declare an ${2:VariableName} property of type ${1:DataType}:
+// Declare an ${3:PropertyName} property of type ${1:DataType}:
 public ${1:DataType} ${3:PropertyName}
 {
     get 
