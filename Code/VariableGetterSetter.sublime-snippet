@@ -15,7 +15,7 @@ public ${1:DataType} ${3:PropertyName}
         ${2:VariableName} = value;
     }
 }
-#endregion variable ${1:DataType} ${2:VariableName}
+#endregion variable ${1:DataType} ${3:PropertyName}
 ${0}]]></content>
     <tabTrigger>cvgs</tabTrigger>
     <description>Create Getter Setter include definition variable</description>
