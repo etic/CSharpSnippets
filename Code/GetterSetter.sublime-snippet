@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+#region variable ${1:DataType} ${3:PropertyName}
+// Declare an ${2:VariableName} property of type ${1:DataType}:
+public ${1:DataType} ${3:PropertyName}
+{
+    get 
+    {
+        return ${2:VariableName};
+    }
+    set
+    {
+        ${2:VariableName} = value;
+    }
+}
+#endregion variable ${1:DataType} ${3:PropertyName}
+${0}]]></content>
+    <tabTrigger>cvgs</tabTrigger>
+    <description>Create Getter Setter include definition variable</description>
+    <scope>source.cs</scope>
+</snippet>
